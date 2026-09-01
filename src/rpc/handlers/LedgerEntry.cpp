@@ -397,7 +397,7 @@ tag_invoke(boost::json::value_to_tag<LedgerEntryHandler::Input>, boost::json::va
             {JS(nft_offer), ripple::ltNFTOKEN_OFFER},
             {JS(nunl), ripple::ltNEGATIVE_UNL},
             {JS(signer_list), ripple::ltSIGNER_LIST},
-        };
+    };
 
     auto const parseBridgeFromJson = [](boost::json::value const& bridgeJson) {
         auto const lockingDoor =
