@@ -156,7 +156,7 @@ tag_invoke(
                 {"disallowIncomingCheck", ripple::lsfDisallowIncomingCheck},
                 {"disallowIncomingPayChan", ripple::lsfDisallowIncomingPayChan},
                 {"disallowIncomingTrustline", ripple::lsfDisallowIncomingTrustline},
-            };
+        };
         lsFlags.insert(lsFlags.end(), disallowIncomingFlags.begin(), disallowIncomingFlags.end());
     }
 
